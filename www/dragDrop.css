@@ -1,0 +1,30 @@
+#user-levels {
+  width: 900px;
+  margin: 0 auto;
+}
+#group1, #group2, #unassigned {
+  float: left;
+	width: 202px;
+	height: 170px;
+	padding: 5px 10px;
+	margin-right: 3px;
+	background: #eee;
+	text-align: center;
+}
+.user {
+	width: 130px;
+	padding: 0 5px;
+	display: block;
+	margin: 0 auto 3px;
+  border-radius: 10px;
+	text-align: center;
+	border: 1px solid #aaa;
+	background: #ddd;
+  box-shadow: 3px 3px 3px #ccc;
+	/*cursor: pointer;*/
+}
+.user:hover {
+    cursor: pointer;
+    border: 2px solid #aaa;
+    /*border-radius: 2px;*/
+}
